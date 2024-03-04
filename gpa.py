@@ -6,7 +6,7 @@ class Student:
         self.name = name
         self.grades = grades
         
-    def get_average(self):
+    def getAverage(self):
         return round(sum(self.grades)/len(self.grades),1)
     
 student1 = Student("Peter",[80,70,90])
