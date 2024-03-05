@@ -17,11 +17,11 @@ student5 = Student("Sasha",[100,98,90])
 
 data = []
 
-data.append([student1.name,student1.grades[0],student1.grades[1],student1.grades[2],student1.get_average()])
-data.append([student2.name,student2.grades[0],student2.grades[1],student2.grades[2],student2.get_average()])
-data.append([student3.name,student3.grades[0],student3.grades[1],student3.grades[2],student3.get_average()])
-data.append([student4.name,student4.grades[0],student4.grades[1],student4.grades[2],student4.get_average()])
-data.append([student5.name,student5.grades[0],student5.grades[1],student5.grades[2],student5.get_average()])
+data.append([student1.name,student1.grades[0],student1.grades[1],student1.grades[2],student1.getAverage()])
+data.append([student2.name,student2.grades[0],student2.grades[1],student2.grades[2],student2.getAverage()])
+data.append([student3.name,student3.grades[0],student3.grades[1],student3.grades[2],student3.getAverage()])
+data.append([student4.name,student4.grades[0],student4.grades[1],student4.grades[2],student4.getAverage()])
+data.append([student5.name,student5.grades[0],student5.grades[1],student5.grades[2],student5.getAverage()])
 
 headers = ["Name","English","Maths","Science","Average"]
 
